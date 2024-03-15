@@ -63,3 +63,9 @@ def get_user_id():
 
 if __name__ == '__main__':
     app.run(debug=True)
+    
+#If it is to be placed on the server, the following part should be used and the IP should be changed to the server IP.
+
+#if __name__ == '__main__':
+    #app.run(host='0.0.0.0', port=5000, debug=True)
+
